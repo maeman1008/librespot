@@ -36,7 +36,7 @@ pub const SPOTIFY_MOBILE_PROPERTY_SET_ID: &str =
 pub const SPOTIFY_SPIRC_VERSION: &str = "3.2.6";
 
 /// The user agent to fall back to, if one could not be determined dynamically.
-pub const FALLBACK_USER_AGENT: &str = "Spotify/124200290 Linux/0 (librespot)";
+pub const FALLBACK_USER_AGENT: &str = "Spotify/8.8.60 iOS/17.0.3 (iPhone14,2)";
 
 pub fn spotify_version() -> String {
     match crate::config::OS {
