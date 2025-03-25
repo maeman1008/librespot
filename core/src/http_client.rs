@@ -115,7 +115,7 @@ impl HttpClient {
             _ => ("Linux", zero_str),
         };
 
-        let user_agent_str = "Spotify for iOS";
+        let user_agent_str = "iPhone";
 
         let user_agent = HeaderValue::from_str(user_agent_str).unwrap_or_else(|err| {
             error!("Invalid user agent <{}>: {}", user_agent_str, err);
